@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="center-container">
+        <h1>Резервация за преглед</h1>
+        <form id="form">
+            <div class="field">
+                <label for="from_name">Name</label>
+                <input type="text" name="from_name" id="from_name">
+            </div>
+            <div class="field">
+                <label for="datetime">Date and Time</label>
+                <input type="datetime-local" name="datetime" id="datetime">
+            </div>
+            <div class="field">
+                <label for="email_id">Email</label>
+                <input type="email" name="email_id" id="email_id">
+            </div>
+            <div class="field">
+                <label for="message">Car and Problem</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <input type="submit" id="button" value="Send Email">
+        </form>
+    </div>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('a87CeB2f8zTsI82Dg'); 
+        })();
+    </script>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
