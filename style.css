@@ -28,12 +28,12 @@ h1 {
     margin-bottom: 10px;
 }
 textarea[name="message"] {
-    width: 245px; /* Set the desired width */
-    height: 99px; /* Set the desired height */
+    width: 245px; 
+    height: 99px; 
     display: block;
-    min-width: 245px; /* Ensure the minimum width matches the set width */
-    min-height: 99px; /* Ensure the minimum height matches the set height */
-    line-height: 1.5; /* Adjust as needed */
+    min-width: 245px; 
+    min-height: 99px; 
+    line-height: 1.5; 
     font-size: 14px;
 }
 
